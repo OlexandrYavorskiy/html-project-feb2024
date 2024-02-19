@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Enver</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        header{
+            height: 20vh;
+            width: 100vw;
+            background: #19191B;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .head1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left:220px ;
+        }
+        .montserrat- {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            color: White;
+            padding-left: 10px;
+        }
+        .head2{
+            width: 30vw;
+            display: flex;
+            justify-content: space-around;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: blueviolet;
+        }
+        .head3{
+            height: 4vh;
+            width:10vw;
+        }
+        #header{
+            height: 4vh;
+            width: 8vw;
+            background-color: #19191B;
+            color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        .first{
+            height: 80vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-evenly;
+            background: #19191B;
+        }
+        .section1>p{
+            color: rgba(255, 255, 255, 0.70);
+            justify-content: space-between;
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 39px;
+        }
+        #s1{
+            font-size: 80px;
+            color: white;
+        }
+        #section1button{
+            height: 5vh;
+            width: 10vw;
+            color: white;
+            border-radius: 4px;
+            background: #5454D4;
+            font-size: 20px;
+            padding-right: 40px;
+        }
+        .header2{
+            height: 20vh;
+            width: 100vw;
+            background: #19191B;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .section2left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .section2right{
+            color: rgba(255, 255, 255, 0.70);
+            font-size: 21px;
+            line-height: 39px;
+            letter-spacing: -0.657px;
+        }
+        .section2photo{
+            height: 80vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #19191B;
+        }
+        #peoples{
+            width: 65vw;
+        }
+        .header3{
+            height: 30vh;
+            width: 100vw;
+            background: #19191B;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .header3Tittle{
+            height: 140px;
+            width: 695px;
+            text-align: center;
+        }
+        .wrap{
+            height: 70vh;
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            background: #19191B;
+        }
+        .cardh1{
+            color: #FFF;
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: -0.75px;
+        }
+        .cardP{
+            color: rgba(255, 255, 255, 0.70);
+            text-align: center;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: -0.5px;
+        }
+        .bag{
+            height: 25vh;
+            width: 30vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-align: center;
+        }
+        .icon1{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon1{
+            position: absolute;
+            top: -12%;
+        }
+        .icon2{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon2{
+            position: absolute;
+            top: -12%;
+        }
+        .icon3{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon3{
+            position: absolute;
+            top: -12%;
+        }
+        .icon4{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon4{
+            position: absolute;
+            top: -12%;
+        }
+        .icon5{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon5{
+            position: absolute;
+            top: -12%;
+        }
+        .icon6{
+            width: 69px;
+            height: 69px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: absolute;
+            top: -20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icon6{
+            position: absolute;
+            top: -12%;
+        }
+        .header4{
+            height: 20vh;
+            width: 100vw;
+            display: flex;
+            justify-content: start;
+            background: #19191B;
+            color: #FFF;
+            font-size: 58px;
+            font-weight: 800;
+        }
+        .surround4{
+            height: 80vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: #19191B;
+        }
+        .background{
+            height: 301px;
+            width: 384px;
+            border-radius: 14px;
+            background: #1E1E20;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .five{
+            height: 30vw;
+            width: 100vw;
+            background: #2b2929;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .text{
+            color: #FFF;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        section.five>button{
+            height: 5vh;
+            width: 10vw;
+            color: white;
+            border-radius: 4px;
+            background: #5454D4;
+            font-size: 20px;
+        }
+        footer{
+            height: 20vh;
+            width: 100vw;
+            background: #19191B;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .footer1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer2{
+            color: rgba(255, 255, 255, 0.70);
+            text-align: right;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 38px; /* 237.5% */
+            letter-spacing: -0.5px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="head1">
+        <img src="Logo%20Icon%201.png" alt="logo" id="Enver2">
+        <h3 class="montserrat-">Enver</h3>
+    </div>
+    <div class="head2">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Our Project</a>
+        <a href="#">About Us</a>
+    </div>
+    <div class="head3">
+        <button id="header">Contact us</button>
+    </div>
+</header>
+<section class="first">
+    <div class="section1">
+        <h1 id="s1">Build Your <br> Awesome <br> Platform</h1>
+        <p>Enver studio is a digital studio that offers several services such <br> as UI/UX Design to developers,we will provide the best
+            <br> service fot those of you who ise our services.</p>
+        <button id="section1button"> Our services</button>
+    </div>
+    <div class="section2">
+        <img src="Group%20162549%201.png" alt="guy">
+    </div>
+</section>
+<section class="header2">
+    <div class="section2left"><h1 style="font-size:60px;color: #FFF;">Why Enver Is <br> The Best Choice? </h1></div>
+    <div class="section2right"><p>Watch this one minute video so you understand why you should use <br>our services!</p> </div>
+</section>
+<section class="section2photo">
+    <img src="image%204.png" id="peoples" alt="peoples">
+</section>
+<section class="header3">
+    <div class="header3Tittle">
+        <h1 style="color: #FFF;font-size: 60px;">The Service We Provide <br> For You</h1>
+    </div>
+</section>
+<div class="wrap">
+    <div class="bag">
+        <div class="icon1"><img src="../../html-project-feb2024/HTML-project/Oval.png" alt=""></div>
+        <div id="icon1"><img src="../../html-project-feb2024/HTML-project/code.png" alt=""></div>
+        <h1 class="cardh1">Development</h1>
+        <p class="cardP">Create a platform with the best and <br> coolest quality from us</p>
+    </div>
+    <div class="bag">
+        <div class="icon2"><img src="Oval%202.png" alt=""></div>
+        <div id="icon2"><img src="../../html-project-feb2024/HTML-project/layer.png" alt=""></div>
+        <h1 class="cardh1">UI/UX Designer</h1>
+        <p class="cardP">We provide UI/UX Design services, <br> and of course with the best quality</p>
+    </div>
+    <div class="bag">
+        <div class="icon3"><img src="Oval%203.png" alt=""></div>
+        <div id="icon3"><img src="../../html-project-feb2024/HTML-project/code3.png" alt=""></div>
+        <h1 class="cardh1">Graphik Designer</h1>
+        <p class="cardP">We provide Graphic Design <br> services, with the best designers</p>
+    </div>
+    <div class="bag">
+        <div class="icon4"><img src="Oval%203.png" alt=""></div>
+        <div id="icon4"><img src="../../html-project-feb2024/HTML-project/align-vertically.png" alt=""></div>
+        <h1 class="cardh1">Motion Graphik</h1>
+        <p class="cardP">Create a platform with the best and <br> coolest quality from us.</p>
+    </div>
+    <div class="bag">
+        <div class="icon5"><img src="../../html-project-feb2024/HTML-project/Oval.png" alt=""></div>
+        <div id="icon5"><img src="../../html-project-feb2024/HTML-project/camera.png" alt=""></div>
+        <h1 class="cardh1">Photography</h1>
+        <p class="cardP">We provide Photography services, <br> and of course with the best quality</p>
+    </div>
+    <div class="bag">
+        <div class="icon6"><img src="Oval%202.png" alt=""></div>
+        <div id="icon6"><img src="../../html-project-feb2024/HTML-project/video-play.png" alt=""></div>
+        <h1 class="cardh1">Videography</h1>
+        <p class="cardP">Create a platform with the best and <br> coolest quality from us.</p>
+    </div>
+</div>
+<section class="four">
+    <div class="header4">
+        <h1 style="padding-left: 210px">Our Awesome Portfolio</h1>
+    </div>
+    <div class="surround4">
+        <div class="background"><img src="image%2029.png" alt="photo1"></div>
+        <div class="background"><img src="image%2028.png" alt="photo2"></div>
+        <div class="background"><img src="image%2030.png" alt="photo3"></div>
+    </div>
+</section>
+<section class="five">
+    <div class="text">Contact us for the service you <br> want to use</div>
+    <button>Contact us</button>
+</section>
+<footer>
+    <div class="footer1">
+        <img src="Logo%20Icon%201.png" alt="logo" id="Enver">
+        <h3 class="montserrat-">Enver</h3>
+    </div>
+    <div class="footer2">© 2024 Enver, All Rights Reserved</div>
+</footer>
+</body>
+</html>
